@@ -1,0 +1,142 @@
+/*Removing default browser settings*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%
+}
+
+body {
+	background-image: url("../images/congruent_pentagon.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-color: #777777;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, sans;
+}
+
+/*/.entirecontent {
+	width: 960px; could not get it to look nice with a set width for the entire content
+}*/ 
+
+.heading {
+	background-color: #4aaaa5;
+	padding-top: 20px;
+	color: #ffffff;
+	text-align: center;
+	position: relative;
+	left: 150px;
+	width: 300px;
+	height: 60px;
+}
+
+h2, h3 {color: #4aaaa5;}
+
+.top {
+	background-color: #ffffff;
+	width: 100%;
+	height: 80px;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 3px;
+	border-left: 0px;
+	border-style: solid;
+	border-color: #cccccc;
+	float: left;
+	position: relative;
+}
+
+.navbar {
+	width: 240px;
+	position: absolute;
+	color: #777777;
+	top: 35px;
+	left: 850px;
+	text-align: center;
+}
+
+#profile {
+	float: left;
+	margin: 0 10px 10px 10px;
+
+}
+
+.about {
+	width: 650px;
+	background-color: #ffffff;
+	margin-top: 15px;
+	margin-left: 50px;
+	float: left;
+	border: 1px solid #dddddd;
+	padding: 1em;
+}
+
+.pagewrap {
+	margin-bottom: -35px;
+	height: 100%;
+	float: left;
+	padding-left: 100px;
+}
+
+.pagewrap:after {
+	content: "";
+	display: block;
+}
+
+.connect {
+	background-color: #ffffff;
+	text-align: center;
+	border: 1px solid #dddddd;
+	padding: 1em;
+	position: absolute;
+	left: 850px;
+	top: 97px;
+	width: 270px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	display: inline;
+	padding: 15px;
+	text-align: center;
+
+}
+
+li a:hover {background-color: #6EAAA5;}
+
+a {
+	text-decoration: none;
+	color: #1C4E3E;
+}
+
+
+.active {
+	background-color: #4AAA8E;
+}
+
+.footer {
+	background-color: #666666;
+	color: #ffffff;
+	text-align: center;
+	border-top: 5px solid #4aaaa5;
+	padding: .5em;
+	margin-top: 35px;
+}
+
+.footer, .pagewrap:after {
+	height: 35px;
+	clear: both;
+}
