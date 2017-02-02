@@ -1,8 +1,6 @@
 /*Removing default browser settings*/
-*{
-	margin: 0;
-	padding: 0;
-}
+
+* {margin: 0;padding: 0;}
 
 html, body {
 	height: 100%
@@ -22,9 +20,10 @@ h1, h2, h3 {
 	font-family: 'Georgia', Times, Times New Roman, sans;
 }
 
-/*/.entirecontent {
-	width: 960px; could not get it to look nice with a set width for the entire content
-}*/ 
+header {
+	min-width: 1400px;
+	margin: 0;
+}
 
 .heading {
 	background-color: #4aaaa5;
@@ -68,7 +67,12 @@ h2, h3 {color: #4aaaa5;}
 
 }
 
-.maincontent {
+.mainsection {
+	width: 960px;
+	height: auto;
+}
+
+.content {
 	width: 650px;
 	background-color: #ffffff;
 	margin-top: 15px;
@@ -97,7 +101,7 @@ h2, h3 {color: #4aaaa5;}
 	position: absolute;
 	left: 850px;
 	top: 97px;
-	width: 270px;
+	width: 237px;
 }
 
 ul {
@@ -109,7 +113,7 @@ ul {
 
 li {
 	display: inline;
-	padding: 15px;
+	padding: 10px;
 	text-align: center;
 
 }
@@ -123,7 +127,7 @@ a {
 
 
 .active {
-	background-color: #4AAA8E;
+	background-color: lightgray;
 }
 
 .comingsoon {
@@ -131,16 +135,31 @@ a {
 	width: 200px;
 	margin: 20px;
 	position: relative;
-	left: 100px;
+	left: 50px;
 }
 
+h4 {
+	position: absolute;
+	top: 325px;
+	left: 237px;
+	background-color: #4aaaa5;
+	padding-top: 20px;
+	color: #ffffff;
+	text-align: center;
+	height: 30px;
+	width: 200px;
+}
+
+
+
+
 textarea {
-	height: 20em;
+	height: 15em;
 }
 
 input, textarea {
 	padding: 5px;
-	width: 95%;
+	width: 80%;
 	margin-top: 5px;
 	margin-bottom: 15px;
 	border: 0.5px solid #dddddd;
@@ -161,6 +180,7 @@ button {
 	border-top: 5px solid #4aaaa5;
 	padding: .5em;
 	margin-top: 35px;
+	min-width: 1400px;
 }
 
 .footer, .pagewrap:after {
